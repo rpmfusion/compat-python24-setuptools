@@ -3,7 +3,7 @@
 
 Name:           compat-python24-setuptools
 Version:        0.6c7
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Download, build, install, upgrade, and uninstall Python packages
 
 Group:          Applications/System
@@ -89,6 +89,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Sun Mar 29 2009 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 0.6c7-5
+- rebuild for new F11 features
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.6c7-4
 - rebuild for RPM Fusion
 
